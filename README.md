@@ -1,43 +1,59 @@
-# Monitora Summer -  NUFSCar 
-Projeto em Android para 1º Monitora Summer
+# 1º Monitora Summer - NUFSCar (News Feed Ufscar)
+Projeto em Android implementado durante o 1º Monitora Summer
 
-# Descrição do projeto
-NUFSCar (News Feed Ufscar)
+- [Descrição](#descrição)
+- [Problema](#problema)
+- [Solução](#solução)
+- [Funcionalidades](#funcionalidades)
+- [Publico alvo](#público-alvo)
+- [Extra](#extra)
 
-Problema:	
+## Descrição
+<p align="center">
+  NUFSCar é um aplicativo que pretende estreitar a comunicação entre a Universidade e o Aluno.
+</p>
 
--comunicação entre universidade e o aluno
+## Problema
+<p align="center">
+  <ul>
+  	<li>A comunicação entre Universidade e o Aluno é ineficiente</li>
+  	<li>As notícias e os eventos da Universidade são mal divulgados</li>
+  </ul>
+</p>
 
--divulgação de notícias e eventos da universidade
+## Solução
+<p align="center">
+  <ul>
+  	<li>Aplicativo para visualização de notícias e eventos</li>
+  </ul>
+</p>
 
-Solução:
+## Funcionalidades
+<p align="center">
+  <ul>
+  	<li>Feed de notícias</li>
+  	<li>Calendário de eventos</li>
+  	<li>Armazenar notícias de interesse (Favoritos)</li>
+  </ul>
+</p>
 
--aplicativo para visualização de notícias e eventos
+## Publico alvo
+<p align="center">
+  <ul>
+  	<li>Alunos e professores</li>
+  	<li>Pessoas vinculadas à Universidade</li>
+  </ul>
+</p>
 
-Funcionalidades:
+## Extra
+<p align="center">
+  <ul>
+  	<li>Poderá ser utilizado/escalado para outras instituições e empresas</li>
+  </ul>
+</p>
 
--feed de notícias
+# Team
 
--calendário de eventos
-
--armazenar notícias de interesse (favoritos)
-
-Publico alvo:
--alunos e professores
-
--pessoas vinculadas à universidade
-
-Extra:
-
--pode ser utilizado/escalado para outras instituições e empresas
-
-
-## Team
-João Gustavo (https://github.com/jgcmarins)
-
-Marelo Otaviano (https://github.com/MarceloOtaviano)
-
-Marco Andrade (https://github.com/marcoaandrade)
-
-Murilo Toloni (https://github.com/murilogtoloni)
+João Gustavo | Marelo Otaviano | Marco Andrade | Murilo Toloni | Vinicius Dourado |
+:octocat: [@jgcmarins](https://github.com/jgcmarins) | [@MarceloOtaviano](https://github.com/MarceloOtaviano) | [@marcoaandrade](https://github.com/marcoaandrade) | [@murilogtoloni](https://github.com/murilogtoloni) | [@vdouradol](https://github.com/vdouradol) |
 
