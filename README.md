@@ -29,7 +29,7 @@ Publico alvo:
 
 Extra:
 
--pode ser utilizado/escalado para outras instutuições e empresas
+-pode ser utilizado/escalado para outras instituições e empresas
 
 
 ## Team
