@@ -55,5 +55,6 @@ Projeto em Android implementado durante o 1º Monitora Summer
 # Team
 
 João Gustavo | Marelo Otaviano | Marco Andrade | Murilo Toloni | Vinicius Dourado |
+|---|---|---|---|---|
 :octocat: [@jgcmarins](https://github.com/jgcmarins) | [@MarceloOtaviano](https://github.com/MarceloOtaviano) | [@marcoaandrade](https://github.com/marcoaandrade) | [@murilogtoloni](https://github.com/murilogtoloni) | [@vdouradol](https://github.com/vdouradol) |
 
