@@ -8,13 +8,18 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".view.SplashActivity" />
+        <activity android:name=".view.LoginActivity" />
+        <activity android:name=".view.NewsFeedActivity" />
+        <activity android:name=".view.EventsActivity" />
+        <activity android:name=".view.FavoritiesActivity"></activity>
     </application>
 
 </manifest>
