@@ -1,4 +1,4 @@
-# 1º Monitora Summer - NUFSCar (News Feed Ufscar)
+# 1º Monitora Summer - NUFSCar (News Feed UFSCar)
 Projeto em Android implementado durante o 1º Monitora Summer
 
 - [Descrição](#descrição)
@@ -54,7 +54,7 @@ Projeto em Android implementado durante o 1º Monitora Summer
 
 # Team
 
-João Gustavo | Marelo Otaviano | Marco Andrade | Murilo Toloni | Vinicius Dourado |
+João Gustavo | Marcelo Otaviano | Marco Andrade | Murilo Toloni | Vinicius Dourado |
 |---|---|---|---|---|
 :octocat: [@jgcmarins](https://github.com/jgcmarins) | [@MarceloOtaviano](https://github.com/MarceloOtaviano) | [@marcoaandrade](https://github.com/marcoaandrade) | [@murilogtoloni](https://github.com/murilogtoloni) | [@vdouradol](https://github.com/vdouradol) |
 
