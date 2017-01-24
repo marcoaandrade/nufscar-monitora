@@ -11,7 +11,9 @@
     tools:context="com.monitora.android.nufscar.main.MainActivity">
 
     <TextView
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="LoadPage"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_height="wrap_content" />
 </RelativeLayout>

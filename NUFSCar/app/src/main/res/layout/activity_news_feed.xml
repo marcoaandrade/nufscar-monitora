@@ -10,4 +10,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.monitora.android.nufscar.view.NewsFeedActivity">
 
+    <TextView
+        android:id="@+id/textNewsfeed"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="News Feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Busca Vida"
+        android:layout_below="@+id/textNewsfeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBNF" />
+
 </RelativeLayout>

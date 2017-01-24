@@ -10,4 +10,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.monitora.android.nufscar.view.FavoritiesActivity">
 
+    <TextView
+        android:id="@+id/textFavorites"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Favoritos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Busca Vida"
+        android:layout_below="@+id/textFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBF" />
 </RelativeLayout>

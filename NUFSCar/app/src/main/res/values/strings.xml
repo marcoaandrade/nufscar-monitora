@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NUFSCar</string>
+    <string name="search">Busca</string>
 </resources>

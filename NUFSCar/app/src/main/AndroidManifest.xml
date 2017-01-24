@@ -19,7 +19,8 @@
         <activity android:name=".view.LoginActivity" />
         <activity android:name=".view.NewsFeedActivity" />
         <activity android:name=".view.EventsActivity" />
-        <activity android:name=".view.FavoritiesActivity"></activity>
+        <activity android:name=".view.FavoritiesActivity" />
+        <activity android:name=".view.NewsContentActivity"></activity>
     </application>
 
 </manifest>

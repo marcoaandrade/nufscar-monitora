@@ -10,4 +10,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.monitora.android.nufscar.view.EventsActivity">
 
+    <TextView
+        android:id="@+id/textEventos"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Eventos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Busca Vida"
+        android:layout_below="@+id/textEventos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBE" />
+
 </RelativeLayout>
