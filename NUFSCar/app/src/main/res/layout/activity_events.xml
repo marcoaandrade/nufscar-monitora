@@ -19,15 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/buttonSearchE"
-        android:textSize="8pt"
-        android:background="@color/colorPrimary"
-        android:hint="Busca"
-        android:layout_below="@+id/textEventos"
-        android:layout_toRightOf="@+id/editTextBE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
 
     <EditText
         android:id="@+id/editTextBE"
@@ -40,4 +32,27 @@
         android:layout_alignParentStart="true" />
 
 
+    <ScrollView
+        android:id="@+id/scrollViewEventos"
+        android:layout_below="@+id/editTextBE"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/listViewEventos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonSearchE"
+        android:textSize="8pt"
+        android:background="@color/colorPrimary"
+        android:hint="Busca"
+        android:layout_below="@+id/textEventos"
+        android:layout_toRightOf="@+id/editTextBE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
