@@ -11,6 +11,7 @@
     tools:context="com.monitora.android.nufscar.main.MainActivity">
 
     <TextView
+        android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:textSize="20sp"
         android:text="LoadPage"
