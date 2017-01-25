@@ -11,12 +11,53 @@
     tools:context="com.monitora.android.nufscar.view.NewsContentActivity">
 
     <TextView
+        android:id="@+id/tituloNoticia"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
-        android:textSize="20sp"
-        android:text="Conteudo da Noticia"
+        android:textSize="25sp"
+        android:text="Titulo da Notícia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+
+    <TextView
+        android:id="@+id/autorNoticia"
+        android:textStyle="bold"
+        android:layout_below="@+id/tituloNoticia"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Autor da Noticia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <ImageView
+        android:id="@+id/imagemNoticia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/autorNoticia"
+
+        />
+    <TextView
+        android:id="@+id/autorImagem"
+        android:textStyle="bold"
+        android:layout_below="@+id/imagemNoticia"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Autor da Noticia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/conteudoNoticia"
+        android:textStyle="bold"
+        android:layout_below="@+id/autorImagem"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:text="Conteudo da Noticia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
 
