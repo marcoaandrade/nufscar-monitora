@@ -12,17 +12,31 @@
 
     <TextView
         android:id="@+id/textNewsfeed"
+        android:textStyle="bold"
         android:layout_centerHorizontal="true"
-        android:textSize="20sp"
+        android:textSize="10pt"
         android:text="News Feed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <EditText
-        android:hint="Busca Vida"
+    <Button
+        android:id="@+id/buttonSearchF"
+        android:textSize="8pt"
+        android:background="@color/colorPrimary"
+        android:hint="Busca"
         android:layout_below="@+id/textNewsfeed"
-        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/editTextBN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextBN"
+        android:textSize="8pt"
+        android:hint="Palavra-chave"
+        android:layout_width="270sp"
         android:layout_height="wrap_content"
-        android:id="@+id/editTextBNF" />
+        android:layout_below="@+id/textNewsfeed"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

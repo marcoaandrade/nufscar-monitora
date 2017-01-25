@@ -12,16 +12,30 @@
 
     <TextView
         android:id="@+id/textFavorites"
+        android:textStyle="bold"
         android:layout_centerHorizontal="true"
-        android:textSize="20sp"
+        android:textSize="10pt"
         android:text="Favoritos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <EditText
-        android:hint="Busca Vida"
+    <Button
+        android:id="@+id/buttonSearchF"
+        android:textSize="8pt"
+        android:background="@color/colorPrimary"
+        android:hint="Busca"
         android:layout_below="@+id/textFavorites"
-        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/editTextBF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextBF"
+        android:textSize="8pt"
+        android:hint="Palavra-chave"
+        android:layout_width="270sp"
         android:layout_height="wrap_content"
-        android:id="@+id/editTextBF" />
+        android:layout_below="@+id/textFavorites"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
