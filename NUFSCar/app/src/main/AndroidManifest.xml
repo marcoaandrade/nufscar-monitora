@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.monitora.android.nufscar">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,11 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".main.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".view.SplashActivity" />
         <activity android:name=".view.LoginActivity" />
@@ -21,6 +19,19 @@
         <activity android:name=".view.EventsActivity" />
         <activity android:name=".view.FavoritiesActivity" />
         <activity android:name=".view.NewsContentActivity"></activity>
+        <activity android:name=".main.json.NoticiasJSONActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".main.json.EventosJSONActivity"/>
+
+
+
     </application>
 
 </manifest>
